@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background: coral;
+}
+
+.botonB{
+    border-radius: 20px;
+	border: 1px solid #000;
+	background-color: #000;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 20px 45px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+	transition: all 0.3s ease;
+}
+
+.botonB:hover{
+    border: 1px solid #000;
+	background-color: #fff;
+	color: #000;
+    cursor: pointer;
+}
+
+.botonc{
+    border-radius: 20px;
+    border: 1px solid #000;
+	background-color: #fff;
+	color: #000;
+    font-size: 12px;
+	font-weight: bold;
+	padding: 20px 45px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+	transition: all 0.3s ease;
+}
+
+.botonB:active , .botonc:active {
+	transform: scale(0.90);
+}
+
+.munu{
+    background-color: #000;
+    width: 100%;
+    margin: auto;
+    color: white;
+}
+.mate{
+    color: white;
+    font-size: 22px;
+}
+
+.contenido{
+    background: white;
+    margin: auto;
+    width: 80%;
+    border-radius: 15px;
+}
+
+.separador{
+    margin: auto;
+    width: 95%;
+}
+
+.editmage{
+    width: 100%;
+}
